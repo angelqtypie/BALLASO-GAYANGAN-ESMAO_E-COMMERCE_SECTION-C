@@ -1,5 +1,5 @@
-*{
-    background-size: cover;
+body{
+    background-color: #55bcc9;
 }
 .navigation a {
     position:relative;
@@ -7,14 +7,14 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .navigation a::after{
     content:'';
     position: absolute;
     left:0;
     bottom: -6px;
-    width: 100px;
+    width: 70px;
     height:3px;
     background: white;
     border-radius: 5px;
@@ -26,3 +26,45 @@
     transform:scaleX(1);
 }
 
+.footer p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: 100px;
+    padding: 10px;
+text-align: center;
+
+}
+.item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+.item h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.item p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.item button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,4 +1,4 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@400;500;800&display=swap');
 *{
     margin:0;
     padding:0;
@@ -7,7 +7,11 @@
 
 }
 body{
-    background-image: url('Home.png');
+    background-image: url('https://i.postimg.cc/D0pFcPqn/2be3a0357b6bc89ffa473ff58bcab2a4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    
 }
 header {
     position: fixed;
@@ -20,6 +24,7 @@ header {
     align-items:center;
     z-index:99;
 }
+
 .btnLogin-popup {
     width: 130px;
     height: 50px;
@@ -31,8 +36,9 @@ header {
     font-size: 1.1rem ;
     color:white;
     font-weight: 500;
-    margin-left: 40px;
+    margin-left: 490px;
 transition: .5s;
+text-align:center;
 }
 .btnLogin-popup:hover{
     background: white;
