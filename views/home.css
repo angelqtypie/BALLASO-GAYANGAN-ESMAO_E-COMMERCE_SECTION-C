@@ -1,0 +1,28 @@
+*{
+    background-size: cover;
+}
+.navigation a {
+    position:relative;
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    width: 100px;
+    height:3px;
+    background: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+
+}
+.navigation a:hover::after{
+    transform:scaleX(1);
+}
+
