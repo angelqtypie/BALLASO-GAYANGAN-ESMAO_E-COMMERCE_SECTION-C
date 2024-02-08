@@ -28,7 +28,7 @@ header {
     z-index:99;
 }
 
-.btnLogin-popup {
+.btnlogin-popup {
     width: 130px;
     height: 50px;
     background:transparent;
@@ -43,7 +43,7 @@ header {
 transition: .5s;
 text-align:center;
 }
-.btnLogin-popup:hover{
+.btnlogin-popup:hover{
     background: white;
     color:black;
 }
