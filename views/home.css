@@ -1,5 +1,6 @@
 body{
-    background-color: #55bcc9;
+    background-color:#755c57;
+    overflow: hidden;
 }
 .navigation a {
     position:relative;
@@ -32,21 +33,21 @@ body{
     padding: 10px;
 }
 .container {
-    max-width: 1200px;
-    margin: 100px;
-    padding: 10px;
-text-align: center;
+    max-width: 1200px;    
+    margin: 75px;
+    padding:20px;
+text-align:center;
+
 
 }
 .item {
     display: inline-block;
-    width: 30%;
+    width: 20%;
     margin: 1%;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    text-align: center;
 }
 .item img {
     width: 100%;
