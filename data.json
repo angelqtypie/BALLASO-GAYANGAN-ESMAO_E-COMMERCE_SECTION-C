@@ -1,0 +1,80 @@
+[
+    {
+      "category": "home",
+      "products": [
+        {
+          "name": "Jackets",
+          "img": "jackets.jpg",
+          "description": "Keep you warm biot",
+          "price": "200 up to 400 php",
+          "dateAdded": "12-16-19"
+        },
+        {
+          "name": "Jeans",
+          "img": "jeans.jpg",
+          "description": "nbioy",
+          "price": "100 up to 250 php",
+          "dateAdded": "10-29-23"
+        },
+        {
+          "name": "Voopo pod",
+          "img": "skirts.jpg",
+          "description": "nbioy",
+          "price": "50 mobiles and get a gift card",
+          "dateAdded": "04-17-21"
+        }
+      ]
+    },
+  {
+      "category": "products",
+      "products": [
+        {
+          "name": "Voopo drag x",
+          "img": "vape1.jpg",
+          "description": "nbioy",
+          "price": "6,100",
+          "dateAdded": "10-29-23"
+        },
+        {
+          "name": "Voopo drag s",
+          "img": "vape3.jpg",
+          "description": "nbioy",
+          "price": "5,400",
+          "dateAdded": "Date Added Placeholder"
+        },
+        {
+          "name": "Cigpet capo",
+          "img": "vape4.jpg",
+          "description": "nbioy",
+          "price": "4,000",
+          "dateAdded": "Date Added Placeholder"
+        }
+      ]
+    },
+    {
+      "category": "about",
+      "products": [
+        {
+          "name": "Relx",
+          "img": "vape5.webp",
+          "description": "nbioy",
+          "price": "2,600",
+          "dateAdded": "Date Added Placeholder"
+        },
+        {
+          "name": "Smok",
+          "img": "vape6.webp",
+          "description": "nbioy",
+          "price": "1,400",
+          "dateAdded": "Date Added Placeholder"
+        },
+        {
+          "name": "Voopo pod",
+          "img": "vape7.webp",
+          "description": "nbioy",
+          "price": "2,500",
+          "dateAdded": "Date Added Placeholder"
+        }
+      ]
+    }
+  ]

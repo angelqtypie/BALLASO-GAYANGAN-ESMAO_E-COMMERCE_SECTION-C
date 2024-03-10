@@ -10,13 +10,12 @@
 
 }
 body{
-    background-image: url('https://i.postimg.cc/D0pFcPqn/2be3a0357b6bc89ffa473ff58bcab2a4.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-image: url('login.jpg');
+    background-repeat: repeat;
     
     
 }
-header {
+/*header {
     position: fixed;
     top:0;
     left: 0;
@@ -26,7 +25,7 @@ header {
     justify-content: space-between;
     align-items:center;
     z-index:99;
-}
+}*/
 
 .btnlogin-popup {
     width: 130px;
